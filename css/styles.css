@@ -591,14 +591,13 @@ img {
 }
 .singer-item {
   width: 358px;
-  
   background-color: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   margin-right: 12px;
   padding-left: 16px;
   padding-top: 15px;
-  padding-bottom:15px ;
+  padding-bottom: 15px;
 }
 .singer-button {
   color: var(--primary-white-color);
@@ -610,15 +609,23 @@ img {
   letter-spacing: 0.06em;
   cursor: pointer;
   border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px;
-  width: 200px;
-  height: 50px;
+  padding-left: 29px;
+  padding-right: 29px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition:background-color 2503ms var(--cubic);
+  transition: background-color 250ms var(--cubic);
+}
+.singer-icon {
+  margin-left: 10px;
 }
 .singer-button:hover,
 .singer-button:focus {
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 /* Стили модалки */
 .backdrop {
