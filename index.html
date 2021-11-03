@@ -494,7 +494,42 @@
           </svg>
         </button>
         <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
-        <form>
+          <form class="modal-form">
+            <div class="modal-box">
+            <label class="modal-form-text" for="name">Имя</label>
+        <input class="modal-form-item" type="text" name="name" id="name">
+        <div>
+          <svg width="12px" height="12px" class="modal-form-icon">
+          <use href="./images/sprite.svg#icon-person"></use>
+        </svg>
+      </div>
+    </div>
+    <div class="modal-box">
+      <label class="modal-form-text" for="tel">Телефон</label>
+        <input class="modal-form-item" type="tel" name="tel"id="tel"></input>
+        <div>
+          <svg width="13px" height="13px" class="modal-form-icon">
+          <use href="./images/sprite.svg#icon-phone-modal"></use>
+        </svg>
+      </div>
+      </div>
+      <div class="modal-box">
+      <label class="modal-form-text" for="email">Почта
+        <input class="modal-form-item" type="email" name="email" id="email"></input>
+      </label>
+      <div>
+        <svg width="15px" height="12px" class="modal-form-icon">
+        <use href="./images/sprite.svg#icon-email-modal"></use>
+      </svg>
+    </div>
+    </div>
+      <label class="modal-form-text" for="coment">Комментарий 
+      <textarea class="modal-form-coment" name="coment" id="coment" placeholder="Введите текст"></textarea>
+    </label>
+      <input type="checkbox" name="confirm" id="confirm" value="confirm" class="modal-form-checkbox">
+      <label class="modal-checkbox-text" for="confirm">Соглашаюсь с рассылкой и принимаю <a href="" class="form-checkbox-link">Условия договора</a>
+    </label>
+    <button class="modal-form-btn" type="submit">Отправить</button>
         </form>
       </div>
     </div>
