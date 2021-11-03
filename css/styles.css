@@ -769,6 +769,7 @@ textarea {
   width: 15px;
   height: 15px;
   border: 2px solid var(--title-text-color);
+  border-color: var(--title-text-color);
   border-radius: 4px;
   margin-right: 7px;
 }
